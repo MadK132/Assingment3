@@ -2,7 +2,7 @@ public class Student {
     private String barcode;
     private String name;
     private double gpa;
-    public Student(String name, double gpa) {
+    public Student(String name, String s, double gpa) {
         setGpa(gpa);
         setName(name);
     }
